@@ -1,5 +1,5 @@
-import "./post.css"
 import {MoreVert} from "@material-ui/icons"
+import "./post.css"
 
 export default function Post() {
     return (
@@ -21,8 +21,14 @@ export default function Post() {
                         <img src="/assets/post/1.jpg" alt="" />
                     </div>
                     <div className="postBottom">
-                        <div className="postBottomLeft"></div>
-                        <div className="postBottomRight"></div>
+                        <div className="postBottomLeft">
+                            <img className="likeIcon" src="assets/like.png" alt=""/>
+                            <img className="heartIcon" src="assets/heart.png" alt=""/>
+                            <span className="postlikeCounter">32 people like it</span>
+                        </div>
+                        <div className="postBottomRight">
+                            <span className="postCommentText"></span>
+                        </div>
                     </div>
                 </div>
             </div>

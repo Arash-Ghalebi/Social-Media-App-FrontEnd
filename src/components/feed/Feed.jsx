@@ -1,6 +1,7 @@
 import Share from "../share/Share"
-import "./feed.css"
 import Post from "../post/Post"
+import "./feed.css"
+
 
 export default function Feed() {
     return (

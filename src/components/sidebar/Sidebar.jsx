@@ -1,5 +1,5 @@
-import "./sidebar.css"
 import {RssFeed, WorkOutline, PlayCircleFilledOutlined, Group, Bookmark, HelpOutline, Event, School} from "@material-ui/icons";
+import "./sidebar.css"
 
 export default function Sidebar() {
     return (
